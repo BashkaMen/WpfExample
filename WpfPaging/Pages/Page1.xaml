@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="WpfPaging.Pages.Page1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfPaging.Pages"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodels="clr-namespace:WpfPaging.ViewModels"
+    Title="Page1"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    DataContext="{Binding Page1ViewModel, Source={StaticResource ViewModelLocator}}"
+    FontSize="50"
+    mc:Ignorable="d">
+
+
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Page 1" TextAlignment="Center" />
+            <Button Command="{Binding ChangePage}" Content="Page Log" />
+
+            <TextBox Text="{Binding LogText, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Center" />
+            <Button Command="{Binding SendLog}" Content="Send log" />
+        </StackPanel>
+    </Grid>
+</Page>

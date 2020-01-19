@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPaging", "WpfPaging\WpfPaging.csproj", "{0343CA06-22BF-470C-9410-444649F4C815}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0343CA06-22BF-470C-9410-444649F4C815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0343CA06-22BF-470C-9410-444649F4C815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0343CA06-22BF-470C-9410-444649F4C815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0343CA06-22BF-470C-9410-444649F4C815}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E49AE3E0-5DF3-41EE-97C1-F6512686B9F0}
+	EndGlobalSection
+EndGlobal

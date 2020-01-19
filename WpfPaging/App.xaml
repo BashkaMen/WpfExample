@@ -1,0 +1,10 @@
+﻿<Application
+    x:Class="WpfPaging.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:WpfPaging"
+    StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <local:ViewModelLocator x:Key="ViewModelLocator" />
+    </Application.Resources>
+</Application>
